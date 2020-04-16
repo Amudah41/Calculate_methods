@@ -1,10 +1,7 @@
 #вариант №6
 import copy
-from enum import Enum
-from functools import partial
 import numpy as np
 from numpy.linalg import det
-from numpy.linalg import norm, solve
 
 A = np.array([[12.785723, 1.534675, -3.947418], [1.534675, 9.709232, 0.918435], [-3.947418, 0.918435, 7.703946]])
 b = np.array([9.60565, 7.30777, 4.21575])

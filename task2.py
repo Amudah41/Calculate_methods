@@ -1,8 +1,5 @@
 from numpy.linalg import eig
-from modules import *
-import numpy as np
 import copy
-from enum import Enum
 from functools import partial
 import numpy as np
 from numpy.linalg import det
